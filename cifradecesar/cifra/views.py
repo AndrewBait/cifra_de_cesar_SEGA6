@@ -32,3 +32,73 @@ class CifraView(TemplateView):
             else:
                 resultado += letra
         return resultado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def cifra_cesar(mensagem, deslocamento):
+#     alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+#     resultado = ''
+    
+#     for letra in mensagem.upper():
+#         if letra in alfabeto:
+#             nova_posicao = (alfabeto.index(letra) + deslocamento) % 26
+#             resultado += alfabeto[nova_posicao]
+#         else:
+#             resultado += letra
+#     return resultado
+
+# mensagem = "A Cesar o que e de César. Todos os caminhos levam a Roma."
+# deslocamento = 7
+# mensagem_cifrada = cifra_cesar(mensagem, deslocamento)
+# mensagem_cifrada
