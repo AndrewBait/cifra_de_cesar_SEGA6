@@ -41,7 +41,7 @@ cifradecesar/
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/username/cifra_de_cesar.git
+   git clone https://github.com/AndrewBait/cifra_de_cesar_SEGA6.git
    cd cifra_de_cesar/cifradecesar
 
 2. **Crie e ative um ambiente virtual:**
