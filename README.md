@@ -88,3 +88,9 @@ Abra o navegador e acesse http://127.0.0.1:8000/.
 2. Insira o número de posições de deslocamento original no campo "Deslocamento".
 3. Selecione a operação "Decifrar".
 4. Clique no botão "Executar" para ver a mensagem decifrada.
+
+## Análise de frequência
+1. Insira a mensagem que deseja analisar no campo "Mensagem".
+2. Selecione a operação "Análise de Frequência".
+3. O campo "Deslocamento" será desativado automaticamente.
+4. Clique no botão "Executar" para ver o deslocamento estimado e a mensagem decifrada com base na análise de frequência.
