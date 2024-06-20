@@ -11,27 +11,28 @@ O projeto está organizado da seguinte maneira:
 cifradecesar/
 │
 ├── cifra/
-│ ├── migrations/
-│ ├── templates/
-│ │ └── cifra/
-│ │ └── cifra.html
-│ ├── init.py
-│ ├── admin.py
-│ ├── apps.py
-│ ├── models.py
-│ ├── tests.py
-│ ├── urls.py
-│ └── views.py
+│   ├── migrations/
+│   ├── templates/
+│   │   └── cifra/
+│   │       └── cifra.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
 │
 ├── cifradecesar/
-│ ├── init.py
-│ ├── asgi.py
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 │
 ├── db.sqlite3
 └── manage.py
+
 
 
 
