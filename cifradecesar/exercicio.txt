@@ -1,0 +1,23 @@
+Questões Propostas
+Exercício 1 - Cifrando uma Mensagem
+Cifre a mensagem a seguir usando um deslocamento de 7 posições:
+
+A César o que é de César. Todos os caminhos levam a Roma.
+Exercício 2 - O Algoritmo da Cifra
+Para preparar a resposta é preciso levar algumas coisas em consideração. 
+Para começar, trabalhamos com um conjunto de 26 elementos representados pelas letras 
+do alfabeto romano. Estes elementos podem ser numerados de 0 a 25. Vamos chamar de x a 
+letra que deve ser deslocada e de y a letra resultante do deslocamento. Se pretendemos 
+que cada elemento seja deslocado em três posições, fica fácil, fácil:
+
+Se x = 0 (letra A) então y = 0 + 3 (letra D). Até aí, nenhuma dificuldade. 
+Mas, e no caso de x = 24 (letra Y) então y = 24 + 3 = 27 ???
+
+A Congruência ou Aritmética Modular mais uma vez entra em cena, coisa que vamos cansar de usar. 
+Estamos lidando com um conjunto de 26 elementos, ou seja, vamos utilizar a soma algébrica módulo 26.
+
+Exercício 3 - Quebrando a Cifra
+
+Decifre a mensagem abaixo:
+
+UVCBGRFR URHEVFVGVPN R NDHRYN DHR PZBZ 2RGB QR GENONYUB R NQBQNQN N GVGHYP CEBIVFBEVB PBZB VQRVN QVERGEVM AN CRFDHFVN QBF SNGFBFNPB VAVPYNV QR FHN IREQNQR BH SNYFVQNQR

@@ -74,14 +74,16 @@ cifradecesar/
 Abra o navegador e acesse http://127.0.0.1:8000/.
 
 
-Instruções de Uso
-Cifrar uma Mensagem:
-Insira a mensagem que deseja cifrar no campo "Mensagem".
-Insira o número de posições para deslocar no campo "Deslocamento".
-Selecione a operação "Cifrar".
-Clique no botão "Executar" para ver a mensagem cifrada.
-Decifrar uma Mensagem:
-Insira a mensagem cifrada no campo "Mensagem".
-Insira o número de posições de deslocamento original no campo "Deslocamento".
-Selecione a operação "Decifrar".
-Clique no botão "Executar" para ver a mensagem decifrada.
+# Instruções de Uso
+
+## Cifrar uma Mensagem:
+1. Insira a mensagem que deseja cifrar no campo "Mensagem".
+2. Insira o número de posições para deslocar no campo "Deslocamento".
+3. Selecione a operação "Cifrar".
+4. Clique no botão "Executar" para ver a mensagem cifrada.
+
+## Decifrar uma Mensagem:
+1. Insira a mensagem cifrada no campo "Mensagem".
+2. Insira o número de posições de deslocamento original no campo "Deslocamento".
+3. Selecione a operação "Decifrar".
+4. Clique no botão "Executar" para ver a mensagem decifrada.
