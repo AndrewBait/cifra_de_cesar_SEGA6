@@ -3,13 +3,14 @@ from django.shortcuts import render
 import string
 from collections import Counter
 
+
 class CifraView(TemplateView):
     template_name = 'cifra/cifra.html'
 
     def post(self, request, *args, **kwargs):
         mensagem = request.POST.get('mensagem', '')
-        deslocamento = request.POST.get('deslocamento', '')
         operacao = request.POST.get('operacao', 'cifrar')
+        deslocamento = request.POST.get('deslocamento', '')
 
         if operacao == 'cifrar':
             if deslocamento.isdigit():
@@ -32,6 +33,7 @@ class CifraView(TemplateView):
         })
 
 
+
     def cifra_cesar(self, mensagem, deslocamento):
         alfabeto = string.ascii_uppercase
         resultado = ''
@@ -43,24 +45,24 @@ class CifraView(TemplateView):
             else:
                 resultado += letra
         return resultado
-        
+
+
 
     def analise_frequencia(self, mensagem):
         frequencia_esperada = 'AEOSRNIDMULCTPVGQBFHZJXYKW'
         mensagem_upper = mensagem.upper()
-        mensagem_filtrada = ''.join(filter(str.isalpha, mensagem_upper))  # Remove caracteres não alfabéticos
+        mensagem_filtrada = ''.join(filter(str.isalpha, mensagem_upper)) 
         contador = Counter(mensagem_filtrada)
 
         if not contador:
             return 'Mensagem vazia ou sem caracteres alfabéticos.'
 
-        # Letra mais frequente na mensagem cifrada
-        letra_mais_frequente = contador.most_common(1)[0][0]
 
-        # Supondo que a letra mais frequente corresponde a 'A' em português
+        letra_mais_frequente = contador.most_common(1)[0][0]        
+
         deslocamento = (string.ascii_uppercase.index(letra_mais_frequente) - string.ascii_uppercase.index('A')) % 26
         
-        # Decifra a mensagem mantendo os espaços
+
         mensagem_decifrada = ''.join(
             self.cifra_cesar(char, -deslocamento) if char.isalpha() else char for char in mensagem_upper
         )
