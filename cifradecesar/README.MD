@@ -44,9 +44,44 @@ cifradecesar/
    git clone https://github.com/username/cifra_de_cesar.git
    cd cifra_de_cesar/cifradecesar
 
-
 2. **Crie e ative um ambiente virtual:**
 
     ```bash
     python -m venv venv
     source venv/bin/activate  # No Windows use `venv\\Scripts\\activate`
+
+
+3. **Instale as dependências:**
+
+   ```bash
+   pip install -r requirements.txt
+
+
+4. **Realize as migrações:**
+
+   ```bash
+   python manage.py migrate
+
+
+5. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   python manage.py runserver
+
+
+6. **Acesse a aplicação no navegador:**
+
+Abra o navegador e acesse http://127.0.0.1:8000/.
+
+
+Instruções de Uso
+Cifrar uma Mensagem:
+Insira a mensagem que deseja cifrar no campo "Mensagem".
+Insira o número de posições para deslocar no campo "Deslocamento".
+Selecione a operação "Cifrar".
+Clique no botão "Executar" para ver a mensagem cifrada.
+Decifrar uma Mensagem:
+Insira a mensagem cifrada no campo "Mensagem".
+Insira o número de posições de deslocamento original no campo "Deslocamento".
+Selecione a operação "Decifrar".
+Clique no botão "Executar" para ver a mensagem decifrada.
