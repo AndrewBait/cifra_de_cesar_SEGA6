@@ -43,7 +43,7 @@ cifradecesar/
 
    ```bash
    git clone https://github.com/AndrewBait/cifra_de_cesar_SEGA6.git
-   cd cifra_de_cesar/cifradecesar
+   cd cifradecesar
 
 2. **Crie e ative um ambiente virtual:**
 
@@ -72,7 +72,7 @@ cifradecesar/
 
 6. **Acesse a aplicação no navegador:**
 
-Abra o navegador e acesse http://127.0.0.1:8000/.
+Abra o navegador e acesse http://127.0.0.1:8000/cifra/.
 
 
 # Instruções de Uso
